@@ -24,6 +24,8 @@ public class ManejoErrores {
         } catch (Exception e) {
             //Mensaje de error
             System.out.println("No se puede dividir entre cero!!!");
+        } finally {
+            System.out.println("Programa finalizado...");
         }
     }
 }
